@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+#page{
+  background-color: rgb(197, 196, 196);
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.circle{
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(76, 94, 250);
+  box-shadow: 0px 0px 5px rgb(53, 70, 224),
+              0px 0px 10px rgb(27, 39, 146);
+
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
